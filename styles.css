@@ -1,0 +1,33 @@
+.rectangles {
+    display: flex;
+  }
+  
+  .rectangle {
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+  }
+
+  #red-btn{
+    color: white;
+    background-color: rgb(198, 3, 3);
+    border: none;
+    padding: 5px;
+  }
+  #blue-btn{
+    color: white;
+    background-color: rgb(16, 3, 198);
+    border: none;
+    padding: 5px;
+  }
+
+  @media (max-width:450px) {
+   
+    .rectangle {
+        width: 600px;
+        height: 400px;
+        background-color: black;
+        margin: 10px;
+      }
+  }
